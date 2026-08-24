@@ -2688,18 +2688,22 @@ linear-gradient(
 ========================================================= */
 
 .recruit-hero .hero-brand-mark {
-  width: 500px;
-  height: 500px;
+  position: absolute;
+  
+  width: 430px;
+  height: 430px;
 
-  right: 5%;
-  top: 50%;
+  right: 2%;
+  top: 55%;
 
-    transform: translateY(-46%);
+    transform: translateY(-50%);
 
-  opacity: 0.18;
+  opacity: 0.12;
 
    background: transparent;
   pointer-events: none;
+
+    z-index: 1;
 }
 
  .recruit-hero .hero-brand-mark img {
