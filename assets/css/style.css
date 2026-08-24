@@ -2697,11 +2697,11 @@ linear-gradient(
 .recruit-hero .hero-brand-mark {
   position: absolute;
 
-  width: 430px;
-  height: 430px;
+  width: 620px;
+  height: 620px;
 
-  right: 1.5%;
-  top: 55%;
+  right: -2%;
+  top: 53%;
 
   transform: translateY(-50%);
 
@@ -2721,7 +2721,7 @@ linear-gradient(
   object-fit: contain;
   display: block;
 
-  opacity: 0.18;
+  opacity: 0.11;
 }
 
 
