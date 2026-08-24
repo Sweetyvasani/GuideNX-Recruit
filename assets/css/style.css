@@ -2705,7 +2705,6 @@ linear-gradient(
 
   z-index: 1;
 
-  opacity: 1;
 }
 
 /* Only the logo image gets reduced opacity */
@@ -2719,8 +2718,14 @@ linear-gradient(
   opacity: 0.11;
 }
 
+/*
+     Hide the original gold dot contained
+     inside the PNG.
+  */
+  clip-path: inset(12% 0 0 0);
+}
 
-/* Gold dot stays at full opacity */
+/* Separate, true GuideNX gold dot */
 .recruit-hero .hero-brand-mark .watermark-dot {
   position: absolute;
 
