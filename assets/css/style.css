@@ -2681,3 +2681,31 @@ linear-gradient(
     justify-content: center;
   }
 }
+
+
+/* =========================================================
+   GuideNX Hero Logo — Transparency Refinement
+========================================================= */
+
+.recruit-hero .hero-brand-mark {
+  width: 500px;
+  height: 500px;
+
+  right: 5%;
+  top: 50%;
+
+  opacity: 0.18;
+
+  /* Visually removes the white background of the PNG */
+  mix-blend-mode: darken;
+
+  background: transparent;
+}
+
+.recruit-hero .hero-brand-mark img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+
+  background: transparent;
+}
