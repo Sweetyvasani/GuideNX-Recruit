@@ -2705,7 +2705,6 @@ linear-gradient(
 
   transform: translateY(-50%);
 
-  opacity: 0.11;
 
   background: transparent;
 
@@ -2721,6 +2720,8 @@ linear-gradient(
 
   object-fit: contain;
   display: block;
+
+  opacity: 0.18;
 }
 
 
