@@ -2694,18 +2694,17 @@ linear-gradient(
   right: 5%;
   top: 50%;
 
+    transform: translateY(-46%);
+
   opacity: 0.18;
 
-  /* Visually removes the white background of the PNG */
-  mix-blend-mode: darken;
-
-  background: transparent;
+   background: transparent;
+  pointer-events: none;
 }
 
-.recruit-hero .hero-brand-mark img {
+ .recruit-hero .hero-brand-mark img {
   width: 100%;
   height: 100%;
   object-fit: contain;
-
-  background: transparent;
+  display: block;
 }
