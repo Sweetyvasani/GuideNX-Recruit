@@ -2587,3 +2587,97 @@ linear-gradient(
     border-radius: 999px;
   }
 }
+
+/* =========================================================
+   GuideNX Search — Hero Layout
+   STEP 2 — Logo + Left Aligned Content
+========================================================= */
+
+/* Large GuideNX brand mark */
+.recruit-hero .hero-brand-mark {
+  position: absolute;
+  right: 7%;
+  top: 50%;
+  transform: translateY(-46%);
+  width: 460px;
+  height: 460px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  z-index: 1;
+  pointer-events: none;
+
+  opacity: 0.16;
+}
+
+.recruit-hero .hero-brand-mark img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Move hero content toward the left */
+.recruit-hero .hero-content {
+  align-items: flex-start;
+  text-align: left;
+
+  max-width: 1200px;
+}
+
+/* Left-align headline */
+.recruit-hero h1 {
+  text-align: left;
+}
+
+/* Left-align supporting content */
+.recruit-hero .hero-subtext {
+  text-align: left;
+}
+
+/* Left-align tagline */
+.recruit-hero .hero-tagline {
+  text-align: left;
+}
+
+/* Keep CTA on the left */
+.recruit-hero .hero-buttons {
+  justify-content: flex-start;
+}
+
+/* Keep the logo behind the content */
+.recruit-hero .hero-content {
+  z-index: 2;
+}
+
+/* =========================================================
+   Mobile
+========================================================= */
+
+@media (max-width: 768px) {
+
+  .recruit-hero .hero-brand-mark {
+    width: 260px;
+    height: 260px;
+    right: 50%;
+    top: 72%;
+    transform: translate(50%, -50%);
+    opacity: 0.08;
+  }
+
+  .recruit-hero .hero-content {
+    align-items: center;
+    text-align: center;
+  }
+
+  .recruit-hero h1,
+  .recruit-hero .hero-subtext,
+  .recruit-hero .hero-tagline {
+    text-align: center;
+  }
+
+  .recruit-hero .hero-buttons {
+    justify-content: center;
+  }
+}
