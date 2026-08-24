@@ -2714,6 +2714,7 @@ linear-gradient(
   z-index: 1;
 }
 
+
 .recruit-hero .hero-brand-mark img {
   width: 100%;
   height: 100%;
@@ -2721,6 +2722,7 @@ linear-gradient(
   object-fit: contain;
   display: block;
 }
+
 
 /* ---------------------------------------------------------
    Separate Gold Dot
