@@ -2687,7 +2687,6 @@ linear-gradient(
    GuideNX Hero Logo — Transparency Refinement
 ========================================================= */
 
-
 .recruit-hero .hero-brand-mark {
   position: absolute;
 
@@ -2704,10 +2703,9 @@ linear-gradient(
   pointer-events: none;
 
   z-index: 1;
-
 }
 
-/* Only the logo image gets reduced opacity */
+/* GuideNX watermark */
 .recruit-hero .hero-brand-mark img {
   width: 100%;
   height: 100%;
@@ -2718,21 +2716,35 @@ linear-gradient(
   opacity: 0.11;
 }
 
-/*
-     Hide the original gold dot contained
-     inside the PNG.
-  */
-  clip-path: inset(12% 0 0 0);
+/* Cover the original muted dot inside the PNG */
+.recruit-hero .hero-brand-mark::before {
+  content: "";
+
+  position: absolute;
+
+  width: 28px;
+  height: 28px;
+
+  top: 5.5%;
+  left: 50%;
+
+  transform: translateX(-50%);
+
+  border-radius: 50%;
+
+  background: #0B1F3A;
+
+  z-index: 2;
 }
 
-/* Separate, true GuideNX gold dot */
+/* True GuideNX gold dot */
 .recruit-hero .hero-brand-mark .watermark-dot {
   position: absolute;
 
-  width: 20px;
-  height: 20px;
+  width: 18px;
+  height: 18px;
 
-  top: 7%;
+  top: 6.5%;
   left: 50%;
 
   transform: translateX(-50%);
