@@ -2694,7 +2694,7 @@ linear-gradient(
   width: 430px;
   height: 430px;
 
-  right: 1.5%;
+  right: 0.5%;
   top: 55%;
 
   transform: translateY(-50%);
@@ -2762,4 +2762,35 @@ linear-gradient(
 
   align-items: flex-start;
   text-align: left;
+}
+
+
+@media (max-width: 768px) {
+
+  .recruit-hero .hero-content {
+    width: 100%;
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+
+    align-items: center;
+    text-align: center;
+  }
+
+  .recruit-hero .hero-brand-mark {
+    width: 260px;
+    height: 260px;
+
+    right: 50%;
+    top: 72%;
+
+    transform: translate(50%, -50%);
+
+    opacity: 0.07;
+  }
+
+  .recruit-hero .watermark-dot {
+    width: 12px;
+    height: 12px;
+  }
 }
