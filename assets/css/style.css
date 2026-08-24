@@ -2725,37 +2725,7 @@ linear-gradient(
 }
 
 
-/* ---------------------------------------------------------
-   Separate Gold Dot
-   Keeps the GuideNX gold dot visually pure
---------------------------------------------------------- */
 
-.recruit-hero .watermark-dot {
-  position: absolute;
-
-  width: 20px;
-  height: 20px;
-
-  border-radius: 50%;
-
-  background: #D4A017;
-
-  /*
-     Position near the original GuideNX
-     logo dot.
-  */
-  top: 7%;
-  left: 50%;
-
-  transform: translateX(-50%);
-
-  opacity: 1;
-
-  box-shadow:
-    0 0 8px rgba(212, 160, 23, 0.20);
-
-  z-index: 2;
-}
 
 /* =========================================================
    GuideNX Hero — Left Content Position
