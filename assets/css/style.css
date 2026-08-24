@@ -2389,3 +2389,201 @@ linear-gradient(
     padding: 2px 0;
 }
 }
+
+
+
+/* =========================================================
+   GuideNX Search — Hero Visual Refinement
+   STEP 1 — CSS ONLY
+========================================================= */
+
+.recruit-hero {
+  background:
+    radial-gradient(
+      circle at 72% 45%,
+      rgba(62, 165, 207, 0.08),
+      transparent 34%
+    ),
+    linear-gradient(
+      135deg,
+      #071D38 0%,
+      #081F3A 55%,
+      #0A2544 100%
+    );
+}
+
+/* Refined background grid */
+.recruit-hero::before {
+  background-image:
+    linear-gradient(
+      rgba(62, 165, 207, 0.045) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      90deg,
+      rgba(62, 165, 207, 0.045) 1px,
+      transparent 1px
+    );
+
+  background-size: 72px 72px;
+}
+
+/* Subtle light behind the content */
+.recruit-hero .hero-overlay {
+  background:
+    radial-gradient(
+      circle at 35% 45%,
+      rgba(255, 255, 255, 0.035),
+      transparent 55%
+    ),
+    radial-gradient(
+      circle at 75% 50%,
+      rgba(62, 165, 207, 0.07),
+      transparent 40%
+    );
+}
+
+/* Content */
+.recruit-hero .hero-content {
+  max-width: 1200px;
+}
+
+/* Eyebrow */
+.recruit-hero .hero-eyebrow {
+  border-color: rgba(212, 160, 23, 0.38);
+  background: rgba(212, 160, 23, 0.055);
+  color: #D4A017;
+
+  box-shadow:
+    0 0 12px rgba(212, 160, 23, 0.08);
+
+  animation: none;
+}
+
+/* Eyebrow dot */
+.recruit-hero .eyebrow-dot {
+  background: #D4A017;
+
+  box-shadow:
+    0 0 7px rgba(212, 160, 23, 0.65),
+    0 0 14px rgba(212, 160, 23, 0.25);
+
+  animation: none;
+}
+
+/* Remove floating movement from eyebrow text */
+.recruit-hero .eyebrow-text {
+  animation: none;
+}
+
+/* Main headline */
+.recruit-hero h1 {
+  color: #F8FAFC;
+  font-weight: 650;
+  letter-spacing: -1.5px;
+}
+
+/* GuideNX gold accent */
+.recruit-hero .hero-accent {
+  background: linear-gradient(
+    135deg,
+    #B98212 0%,
+    #D4A017 35%,
+    #E7C45A 50%,
+    #D4A017 65%,
+    #B98212 100%
+  );
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  font-weight: 750;
+}
+
+/* Supporting text */
+.recruit-hero .hero-subtext {
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 19px;
+  line-height: 1.75;
+}
+
+/* Existing tagline */
+.recruit-hero .hero-tagline {
+  color: #D4A017;
+  font-weight: 600;
+}
+
+/* Primary CTA */
+.recruit-hero .btn-primary {
+  background: linear-gradient(
+    135deg,
+    #B98212 0%,
+    #D4A017 45%,
+    #E5C35A 100%
+  );
+
+  color: #071D38;
+
+  border: 1px solid rgba(255, 255, 255, 0.16);
+
+  box-shadow:
+    0 10px 24px rgba(212, 160, 23, 0.20),
+    inset 0 1px 1px rgba(255, 255, 255, 0.25);
+}
+
+/* CTA hover */
+.recruit-hero .btn-primary:hover {
+  box-shadow:
+    0 14px 30px rgba(212, 160, 23, 0.28),
+    0 0 22px rgba(212, 160, 23, 0.12);
+
+  transform: translateY(-2px);
+}
+
+/* Bottom brand divider */
+.recruit-hero .hero-divider {
+  height: 2px;
+
+  background: linear-gradient(
+    90deg,
+    #3EA5CF 0%,
+    #3EA5CF 35%,
+    #D4A017 65%,
+    #D4A017 100%
+  );
+}
+
+/* =========================================================
+   Mobile
+========================================================= */
+
+@media (max-width: 768px) {
+
+  .recruit-hero {
+    background:
+      radial-gradient(
+        circle at 50% 30%,
+        rgba(62, 165, 207, 0.07),
+        transparent 45%
+      ),
+      linear-gradient(
+        135deg,
+        #071D38 0%,
+        #081F3A 100%
+      );
+  }
+
+  .recruit-hero h1 {
+    letter-spacing: -0.7px;
+  }
+
+  .recruit-hero .hero-subtext {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+  .recruit-hero .hero-eyebrow {
+    border-radius: 999px;
+  }
+}
