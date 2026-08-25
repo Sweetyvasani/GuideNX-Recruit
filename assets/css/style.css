@@ -2772,3 +2772,48 @@ linear-gradient(
     height: 12px;
   }
 }
+
+/* =========================================================
+   GuideNX Navbar Branding
+========================================================= */
+
+.brand {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.brand-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1;
+  margin-left: 12px;
+}
+
+.brand-main {
+  display: flex;
+  align-items: baseline;
+  line-height: 1;
+}
+
+.brand-guide {
+  color: #3EA5CF;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.brand-nx {
+  color: #D4A017;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.brand-search {
+  color: #3A506B;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1.8px;
+  margin-top: 5px;
+  text-transform: uppercase;
+}
