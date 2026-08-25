@@ -301,9 +301,9 @@ margin-bottom: 0;
   align-items: center;
   justify-content: center;
   padding: 12px 22px;
-  border: 1px solid rgba(212,167,63,0.40);
+  border: 1px solid rgba(62,165,207,0.45);
   border-radius: 999px;
-  background: rgba(212,167,63,0.08);
+  background: rgba(62,165,207,0.08);
   color: #3ea5cf;
     font-size: 18px;
   font-weight: 700;
@@ -311,8 +311,8 @@ margin-bottom: 0;
     text-transform: uppercase;
     margin-bottom: 12px;
     box-shadow:
-    0 0 12px rgba(212,167,63,0.12),
-    0 0 24px rgba(212,167,63,0.05);
+      0 0 12px rgba(62,165,207,0.12),
+  0 0 24px rgba(62,165,207,0.05);
 
   animation: eyebrowPulse 3s ease-in-out infinite;
   }
