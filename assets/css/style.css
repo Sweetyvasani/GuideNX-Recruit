@@ -2774,7 +2774,7 @@ linear-gradient(
 }
 
 /* =========================================================
-   GuideNX Navbar Branding
+   GuideNX Navbar Brand — Refined Wordmark
 ========================================================= */
 
 .brand {
@@ -2786,34 +2786,53 @@ linear-gradient(
 .brand-name {
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: center;
+
+  margin-left: 10px;
+
   line-height: 1;
-  margin-left: 12px;
 }
 
+/* GuideNX */
 .brand-main {
   display: flex;
   align-items: baseline;
+  justify-content: center;
+
   line-height: 1;
 }
 
 .brand-guide {
   color: #3EA5CF;
-  font-size: 22px;
+
+  font-size: 23px;
   font-weight: 700;
+
+  letter-spacing: -0.5px;
 }
 
 .brand-nx {
   color: #D4A017;
-  font-size: 22px;
+
+  font-size: 23px;
   font-weight: 700;
+
+  letter-spacing: -0.5px;
 }
 
+/* Search */
 .brand-search {
-  color: #3A506B;
-  font-size: 13px;
+  color: #17365D;
+
+  font-size: 11px;
   font-weight: 600;
-  letter-spacing: 1.8px;
+
+  letter-spacing: 2.8px;
+
   margin-top: 5px;
-  text-transform: uppercase;
+
+  text-transform: none;
+
+  line-height: 1;
 }
