@@ -57,7 +57,7 @@ header img {
 }
 
 .brand-bold {
-    color: #3ea5cf;      /* Your existing navy */
+    color: #3ea5cf;      
     font-weight: 700;
 }
 
@@ -304,7 +304,7 @@ margin-bottom: 0;
   border: 1px solid rgba(212,167,63,0.40);
   border-radius: 999px;
   background: rgba(212,167,63,0.08);
-  color: #d4a73f;
+  color: #3ea5cf;
     font-size: 18px;
   font-weight: 700;
   letter-spacing: 1px;
@@ -714,7 +714,7 @@ margin-bottom: 0;
 
 
 /* ===============================
-WHY LAKESIDE RECRUIT
+WHY GuideNX Search
 ================================ */
 
 .why-recruit {
@@ -741,7 +741,7 @@ text-align: center;
 
    background: rgba(212,167,63,0.08);
 
-  color: #D4A73F;
+  color: #3ea5cf;
 
   font-size: 16px;
   font-weight: 700;
@@ -896,7 +896,7 @@ grid-template-columns: 1fr;
 
    background: rgba(212,167,63,0.08);
 
-  color: #D4A73F;
+  color: #3ea5cf;
 
   font-size: 16px;
   font-weight: 700;
@@ -1051,7 +1051,7 @@ padding-bottom: 28px;
 
    background: rgba(212,167,63,0.08);
 
-  color: #D4A73F;
+  color: #3ea5cf;
 
   font-size: 16px;
   font-weight: 700;
@@ -1211,7 +1211,7 @@ border-color: #D4A73F;
 
    background: rgba(212,167,63,0.08);
 
-  color: #D4A73F;
+  color: #3ea5cf;
 
   font-size: 16px;
   font-weight: 700;
@@ -1557,7 +1557,7 @@ border-color: #D4A73F;
 
    background: rgba(212,167,63,0.08);
 
-  color: #D4A73F;
+  color: #3ea5cf;
 
   font-size: 16px;
   font-weight: 700;
@@ -1871,7 +1871,7 @@ linear-gradient(
 
    background: rgba(212,167,63,0.08);
 
-  color: #D4A73F;
+  color: #3ea5cf;
 
   font-size: 16px;
   font-weight: 700;
