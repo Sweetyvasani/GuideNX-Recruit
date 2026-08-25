@@ -106,7 +106,7 @@ header nav ul li a {
   text-decoration: none;
   font-size: 16px;  /* ✅ slightly smaller text */
   font-weight: 500;
-  color: #3ea5cf;  
+  color: #6B7A89;  
   transition: color 0.3s ease, border-bottom 0.3s ease;
 }
 
