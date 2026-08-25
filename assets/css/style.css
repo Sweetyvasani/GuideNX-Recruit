@@ -2774,7 +2774,8 @@ linear-gradient(
 }
 
 /* =========================================================
-   GuideNX Navbar Brand — Refined Wordmark
+   GuideNX Navbar Brand — Option 1
+   GuideNX + Gray Search
 ========================================================= */
 
 .brand {
@@ -2783,30 +2784,29 @@ linear-gradient(
   text-decoration: none;
 }
 
+/* Brand text container */
 .brand-name {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: baseline;
+  gap: 5px;
 
   margin-left: 10px;
 
   line-height: 1;
+  white-space: nowrap;
 }
 
-/* GuideNX */
+/* GuideNX wordmark */
 .brand-main {
   display: flex;
   align-items: baseline;
-  justify-content: center;
-
   line-height: 1;
 }
 
 .brand-guide {
   color: #3EA5CF;
 
-  font-size: 23px;
+  font-size: 22px;
   font-weight: 700;
 
   letter-spacing: -0.5px;
@@ -2815,7 +2815,7 @@ linear-gradient(
 .brand-nx {
   color: #D4A017;
 
-  font-size: 23px;
+  font-size: 22px;
   font-weight: 700;
 
   letter-spacing: -0.5px;
@@ -2823,16 +2823,12 @@ linear-gradient(
 
 /* Search */
 .brand-search {
-  color: #17365D;
+  color: #6B7A89;
 
-  font-size: 11px;
-  font-weight: 600;
+  font-size: 16px;
+  font-weight: 500;
 
-  letter-spacing: 2.8px;
-
-  margin-top: 5px;
-
-  text-transform: none;
+  letter-spacing: -0.2px;
 
   line-height: 1;
 }
