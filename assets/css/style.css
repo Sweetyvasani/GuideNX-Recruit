@@ -104,9 +104,9 @@ header nav ul li {
 
 header nav ul li a {
   text-decoration: none;
-  font-size: 15px;  /* ✅ slightly smaller text */
+  font-size: 16px;  /* ✅ slightly smaller text */
   font-weight: 500;
-  color: #001F54;   /* Navy text */
+  color: #3ea5cf;  
   transition: color 0.3s ease, border-bottom 0.3s ease;
 }
 
