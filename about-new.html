@@ -1155,6 +1155,228 @@
 
 }
 
+        /* ===========================
+   Footer
+=========================== */
+
+.footer {
+    background: #071321;
+     padding: 35px 0 18px;
+    color: #9fb3c8;
+}
+
+.footer .container{
+    max-width:1200px;
+    margin:0 auto;
+    padding:0 32px;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: 2.8fr 1fr 1fr;
+    gap: 60px;
+    align-items: flex-start;
+}
+
+.footer h3 {
+    margin: 0 0 22px;
+
+    font-size: 2rem;
+
+    font-weight: 700;
+
+    line-height: 1;
+}
+
+.footer-guide {
+    color: #3EA5CF;
+}
+
+.footer-nx {
+    color: #D4A73F;
+}
+
+.footer-search {
+    margin-left: 7px;
+
+    color: #9fb3c8;
+
+    font-size: 1.25rem;
+
+    font-weight: 500;
+}
+
+.footer h4 {
+    color: #ffffff;
+    font-size: 1.05rem;
+    margin-bottom: 14px;
+    font-weight: 600;
+}
+
+.footer p {
+    line-height: 1.8;
+    margin-bottom: 12px;
+    color: #9fb3c8;
+}
+
+.footer-brand p {
+    line-height: 1.7;
+    max-width: 520px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+       margin: 0;
+}
+
+.footer-links li {
+    margin: 0;
+}
+
+.footer-links a {
+    color: #9fb3c8;
+    display: block;
+   padding: 4px 0;
+  font-size: 15px;
+    text-decoration: none;
+    transition: 0.3s;
+  line-height: 1.25;
+}
+
+.footer-links a:hover {
+    color: #ffffff;
+}
+
+.footer-social {
+    display: flex;
+    gap: 12px;
+    margin-top: 18px;
+}
+
+.footer-social a {
+    width: 42px;
+    height: 42px;
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #c7d2e1;
+    font-size: 18px;
+    transition: all .3s ease;
+}
+
+.footer-social a:hover {
+    background: #D4A73F;
+    color: #071321;
+    border-color: #D4A73F;
+}
+
+.footer-contact ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-contact li {
+    margin: 0;
+}
+
+.footer-contact a {
+    display: block;
+    padding: 4px 0;
+    font-size: 15px;
+    line-height: 1.25;
+    color: #9fb3c8;
+    text-decoration: none;
+    transition: color .3s ease;
+}
+
+.footer-contact a:hover {
+    color: #ffffff;
+}
+
+.footer-contact span {
+    display: block;
+    padding: 4px 0;
+    font-size: 15px;
+    line-height: 1.25;
+    color: #9fb3c8;
+}
+
+
+/* Bottom Footer */
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  margin-top: 48px;
+    padding-top:24px;
+    border-top:1px solid rgba(255,255,255,.08);
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 13px;
+    color: #7f93ad;
+}
+
+.footer-bottom-links {
+    display: flex;
+    gap: 24px;
+}
+
+.footer-bottom-links a {
+    text-decoration: none;
+    color: #7f93ad;
+    font-size: 12px;
+    transition: color .3s ease;
+}
+
+.footer-bottom-links a:hover {
+    color: #ffffff;
+}
+
+/* Responsive */
+
+@media (max-width:900px){
+
+    .footer-bottom{
+        flex-direction:column;
+        gap:18px;
+        text-align:center;
+      
+    }
+
+}
+
+@media (max-width:900px) {
+
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: 36px;
+    }
+
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    grid-template-columns: 1fr;
+        gap: 32px;
+}
+  .footer-social a {
+    width: 46px;
+    height: 46px;
+    font-size: 20px;
+}
+  .footer-links a {
+    padding: 2px 0;
+}
+}
+
+
     </style>
 
 </head>
@@ -1555,6 +1777,118 @@
     </p>
 
 </section>
+
+    <footer class="footer">
+
+    <div class="container">
+
+        <div class="footer-content">
+
+            <!-- Left -->
+            <div class="footer-brand">
+
+                <h3>
+                    <span class="footer-guide">Guide</span><span class="footer-nx">NX</span>
+                    <span class="footer-search">Search</span>
+                </h3>
+
+                <p>
+                    Finding the Right Talent. Not Just the Available Talent.
+                </p>
+
+                <div class="footer-social">
+
+                    <!-- Add GuideNX LinkedIn URL once the company page is created -->
+                    <!--
+                    <a href="YOUR_GUIDENX_LINKEDIN_URL"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    -->
+
+                </div>
+
+            </div>
+
+
+            <!-- Center -->
+            <div class="footer-links">
+
+                <h4>Quick Links</h4>
+
+                <ul>
+
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="about.html">About Us</a>
+                    </li>
+
+                    <li>
+                        <a href="index.html#industries">Industries</a>
+                    </li>
+
+                    <li>
+                        <a href="index.html#contact">Contact</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <!-- Right -->
+            <div class="footer-contact">
+
+                <h4>Contact</h4>
+
+                <ul>
+
+                    <li>
+                        <a href="mailto:hr@guidenx.com">
+                            hr@guidenx.com
+                        </a>
+                    </li>
+
+                    <li>
+                        <span>Mumbai, India</span>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+
+        <!-- Bottom Footer -->
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 GuideNX Search. All rights reserved.
+            </p>
+
+            <div class="footer-bottom-links">
+
+                <a href="#">
+                    Privacy Policy
+                </a>
+
+                <a href="#">
+                    Terms of Service
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
 
 
     </div>
