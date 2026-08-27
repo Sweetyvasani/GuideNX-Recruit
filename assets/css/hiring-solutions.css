@@ -42,7 +42,7 @@ body{
     gap:10px;
     margin-bottom:45px;
     text-decoration:none;
-    color:#D8A74A;
+    color:#3ea5cf;
     font-size:.95rem;
     font-weight:500;
     transition:.3s;
@@ -67,7 +67,7 @@ body{
   border: 1px solid rgba(212,167,63,0.40);
   border-radius: 999px;
   background: rgba(212,167,63,0.08);
-  color: #d4a73f;
+  color: #3ea5cf;
     font-size: 18px;
   font-weight: 700;
   letter-spacing: 1px;
