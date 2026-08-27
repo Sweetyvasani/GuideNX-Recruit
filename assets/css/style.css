@@ -2191,7 +2191,7 @@ linear-gradient(
 =========================== */
 
 .footer {
-    background: #071321;
+    background: #001F54;
      padding: 35px 0 18px;
     color: #9fb3c8;
 }
@@ -2210,14 +2210,34 @@ linear-gradient(
 }
 
 .footer h3 {
-    color: #ffffff;
+    margin: 0 0 22px;
+
     font-size: 2rem;
-    margin-bottom: 18px;
+
     font-weight: 700;
+
+    line-height: 1;
 }
 
 .footer h3 span {
     color: #f59e0b;   /* Recruit Accent */
+}
+
+.footer-guide {
+    color: #3EA5CF;
+}
+
+.footer-nx {
+    color: #D4A73F;
+}
+
+.footer-search {
+    margin-left: 7px;
+
+    color: #E6EEF5;
+    font-size: 1.25rem;
+
+    font-weight: 500;
 }
 
 .footer h4 {
@@ -2282,9 +2302,9 @@ linear-gradient(
 }
 
 .footer-social a:hover {
-    background: #f59e0b;
+    background: #D4A73F;
     color: #071321;
-    border-color: #f59e0b;
+    border-color: #D4A73F;
 }
 
 .footer-contact ul {
