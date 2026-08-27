@@ -109,15 +109,24 @@
 
 
         .about-test__eyebrow-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #D4A73F;
+  margin-right: 10px;
 
-            width: 7px;
-            height: 7px;
+  box-shadow:
+    0 0 8px #D4A73F,
+    0 0 16px #D4A73F;
 
-            border-radius: 50%;
+  animation: dotPulse 2s ease-in-out infinite;
+}
 
-            background: var(--gnx-gold);
-
-        }
+@keyframes dotPulse {
+  50% {
+    transform: scale(1.25);
+  }
+}
 
 
         /* =========================================================
@@ -863,15 +872,24 @@
 }
 
         .eyebrow-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #D4A73F;
+  margin-right: 10px;
 
-            width: 7px;
-            height: 7px;
+  box-shadow:
+    0 0 8px #D4A73F,
+    0 0 16px #D4A73F;
 
-            border-radius: 50%;
+  animation: dotPulse 2s ease-in-out infinite;
+}
 
-            background: var(--gnx-gold);
-
-        }
+@keyframes dotPulse {
+  50% {
+    transform: scale(1.25);
+  }
+}
 
 
 .about-test__promise-header h3 {
