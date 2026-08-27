@@ -1,0 +1,1117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>About Us | GuideNX Search</title>
+
+    <style>
+
+        /* =========================================================
+           GUIDENX SEARCH — ABOUT STORY / ASYMMETRICAL VERSION
+        ========================================================= */
+
+        :root {
+
+            --gnx-blue: #3EA5CF;
+            --gnx-gold: #D4A73F;
+            --gnx-navy: #0B1F3A;
+
+            --gnx-text: #52657D;
+            --gnx-soft: #6B7A89;
+
+            --gnx-bg: #F8FAFC;
+            --gnx-white: #FFFFFF;
+
+        }
+
+
+        * {
+            box-sizing: border-box;
+        }
+
+
+        body {
+
+            margin: 0;
+
+            font-family:
+                Arial,
+                Helvetica,
+                sans-serif;
+
+            background: var(--gnx-bg);
+
+            color: var(--gnx-text);
+
+        }
+
+
+        /* =========================================================
+           ABOUT STORY
+        ========================================================= */
+
+        .about-test {
+
+            padding: 90px 40px 110px;
+
+            background: var(--gnx-bg);
+
+        }
+
+
+        .about-test__container {
+
+            max-width: 1180px;
+
+            margin: 0 auto;
+
+        }
+
+
+        /* =========================================================
+           EYEBROW
+        ========================================================= */
+
+        .about-test__eyebrow {
+
+            display: flex;
+
+            align-items: center;
+            justify-content: center;
+
+            gap: 9px;
+
+            width: fit-content;
+
+            margin: 0 auto 24px;
+
+            padding: 10px 19px;
+
+            border: 1px solid rgba(62,165,207,0.45);
+
+            border-radius: 999px;
+
+            background: rgba(62,165,207,0.06);
+
+            color: var(--gnx-blue);
+
+            font-size: 14px;
+
+            font-weight: 700;
+
+            letter-spacing: 1px;
+
+            text-transform: uppercase;
+
+        }
+
+
+        .about-test__eyebrow-dot {
+
+            width: 7px;
+            height: 7px;
+
+            border-radius: 50%;
+
+            background: var(--gnx-gold);
+
+        }
+
+
+        /* =========================================================
+           MAIN HEADING
+        ========================================================= */
+
+        .about-test__heading {
+
+            max-width: 820px;
+
+            margin: 0 auto 80px;
+
+            text-align: center;
+
+            color: var(--gnx-navy);
+
+            font-size: 46px;
+
+            line-height: 1.12;
+
+            font-weight: 700;
+
+        }
+
+
+        /* =========================================================
+           ASYMMETRICAL INTRO
+        ========================================================= */
+
+        .about-test__intro {
+
+            display: grid;
+
+            grid-template-columns: minmax(0, 1.55fr) minmax(300px, 0.85fr);
+
+            gap: 90px;
+
+            align-items: start;
+
+            position: relative;
+
+        }
+
+
+        /* =========================================================
+           STORY COLUMN
+        ========================================================= */
+
+        .about-test__story {
+
+            padding-top: 10px;
+
+        }
+
+
+        .about-test__story h2 {
+
+            margin: 0 0 30px;
+
+            color: var(--gnx-navy);
+
+            font-size: 25px;
+
+            line-height: 1.3;
+
+            font-weight: 700;
+
+        }
+
+
+        .about-test__story p {
+
+            margin: 0 0 27px;
+
+            color: var(--gnx-text);
+
+            font-size: 16px;
+
+            line-height: 1.85;
+
+        }
+
+
+        /* =========================================================
+           OPENING QUOTE
+        ========================================================= */
+
+        .about-test__opening {
+
+            position: relative;
+
+            margin: 0 0 38px;
+
+            padding: 4px 0 4px 25px;
+
+            border-left: 3px solid var(--gnx-gold);
+
+        }
+
+
+        .about-test__opening p {
+
+            margin: 0;
+
+            color: var(--gnx-navy);
+
+            font-size: 20px;
+
+            line-height: 1.65;
+
+            font-style: italic;
+
+        }
+
+
+        /* =========================================================
+           THE "MINE" SECTION
+        ========================================================= */
+
+        .about-test__mine {
+
+            margin: 35px 0 38px;
+
+            padding: 25px 30px;
+
+            background: rgba(62,165,207,0.045);
+
+            border-radius: 10px;
+
+            border-left: 1px solid rgba(62,165,207,0.20);
+
+        }
+
+
+        .about-test__mine p {
+
+            margin: 0 0 7px;
+
+            color: var(--gnx-navy);
+
+            font-size: 16px;
+
+            line-height: 1.55;
+
+            font-weight: 600;
+
+        }
+
+
+        .about-test__mine p:last-child {
+
+            margin-bottom: 0;
+
+        }
+
+
+        /* =========================================================
+           IMPORTANT STATEMENT
+        ========================================================= */
+
+        .about-test__emphasis {
+
+            margin: 40px 0;
+
+            padding: 5px 0;
+
+            color: var(--gnx-navy) !important;
+
+            font-size: 19px !important;
+
+            line-height: 1.7 !important;
+
+            font-weight: 700;
+
+        }
+
+
+        .about-test__emphasis::before {
+
+            content: "";
+
+            display: block;
+
+            width: 42px;
+
+            height: 3px;
+
+            margin-bottom: 18px;
+
+            background: var(--gnx-gold);
+
+        }
+
+
+        /* =========================================================
+           GUIDE NX STATEMENT
+        ========================================================= */
+
+        .about-test__guide {
+
+            margin-top: 35px;
+
+            padding: 32px 35px;
+
+            background: var(--gnx-navy);
+
+            border-radius: 12px;
+
+        }
+
+
+        .about-test__guide p {
+
+            margin: 0;
+
+            color: #FFFFFF;
+
+            font-size: 17px;
+
+            line-height: 1.8;
+
+        }
+
+
+        .about-test__guide strong {
+
+            color: var(--gnx-gold);
+
+        }
+
+
+        /* =========================================================
+           FOUNDER SIDE
+        ========================================================= */
+
+        .about-test__founder {
+
+            position: sticky;
+
+            top: 40px;
+
+            padding-top: 0;
+
+        }
+
+
+        .about-test__founder-photo-wrap {
+
+            position: relative;
+
+            margin-left: auto;
+
+            width: 100%;
+
+            max-width: 370px;
+
+        }
+
+
+        .about-test__founder-photo-wrap::before {
+
+            content: "";
+
+            position: absolute;
+
+            width: 100%;
+
+            height: 100%;
+
+            top: 18px;
+
+            left: -18px;
+
+            border: 1px solid rgba(62,165,207,0.25);
+
+            border-radius: 18px;
+
+            z-index: 0;
+
+        }
+
+
+        .about-test__founder-photo {
+
+            position: relative;
+
+            z-index: 1;
+
+            display: block;
+
+            width: 100%;
+
+            border-radius: 18px;
+
+            box-shadow:
+                0 18px 45px rgba(11,31,58,0.16);
+
+        }
+
+
+        .about-test__founder-info {
+
+            padding: 24px 10px 0;
+
+            text-align: center;
+
+        }
+
+
+        .about-test__founder-name {
+
+            margin: 0 0 4px;
+
+            color: var(--gnx-blue);
+
+            font-size: 24px;
+
+            font-weight: 700;
+
+        }
+
+
+        .about-test__founder-title {
+
+            margin: 0;
+
+            color: var(--gnx-soft);
+
+            font-size: 15px;
+
+            font-weight: 500;
+
+        }
+
+
+        .about-test__founder-quote {
+
+            margin: 30px auto 0;
+
+            max-width: 330px;
+
+            color: var(--gnx-soft);
+
+            font-size: 15px;
+
+            line-height: 1.7;
+
+            font-style: italic;
+
+        }
+
+
+        .about-test__founder-line {
+
+            width: 45px;
+
+            height: 2px;
+
+            margin: 26px auto 0;
+
+            background: var(--gnx-gold);
+
+        }
+
+
+        /* =========================================================
+           SECOND SECTION
+        ========================================================= */
+
+        .about-test__secondary {
+
+            display: grid;
+
+            grid-template-columns: 0.8fr 1.4fr;
+
+            gap: 90px;
+
+            margin-top: 95px;
+
+            padding-top: 75px;
+
+            border-top: 1px solid rgba(11,31,58,0.10);
+
+        }
+
+
+        .about-test__secondary-label {
+
+            color: var(--gnx-gold);
+
+            font-size: 13px;
+
+            font-weight: 700;
+
+            letter-spacing: 1.2px;
+
+            text-transform: uppercase;
+
+        }
+
+
+        .about-test__secondary h3 {
+
+            margin: 10px 0 0;
+
+            color: var(--gnx-navy);
+
+            font-size: 31px;
+
+            line-height: 1.25;
+
+        }
+
+
+        .about-test__secondary-content p {
+
+            margin: 0 0 25px;
+
+            color: var(--gnx-text);
+
+            font-size: 16px;
+
+            line-height: 1.85;
+
+        }
+
+
+        .about-test__secondary-highlight {
+
+            margin-top: 30px;
+
+            padding-left: 20px;
+
+            border-left: 3px solid var(--gnx-gold);
+
+            color: var(--gnx-navy) !important;
+
+            font-size: 18px !important;
+
+            font-weight: 700;
+
+        }
+
+
+        /* =========================================================
+           THIRD SECTION
+        ========================================================= */
+
+        .about-test__philosophy {
+
+            display: grid;
+
+            grid-template-columns: 0.75fr 1.45fr;
+
+            gap: 90px;
+
+            margin-top: 80px;
+
+            padding: 65px 0 0;
+
+            border-top: 1px solid rgba(11,31,58,0.10);
+
+        }
+
+
+        .about-test__philosophy-label {
+
+            color: var(--gnx-blue);
+
+            font-size: 13px;
+
+            font-weight: 700;
+
+            letter-spacing: 1.2px;
+
+            text-transform: uppercase;
+
+        }
+
+
+        .about-test__philosophy h3 {
+
+            margin: 10px 0 0;
+
+            color: var(--gnx-navy);
+
+            font-size: 31px;
+
+            line-height: 1.25;
+
+        }
+
+
+        .about-test__philosophy-content p {
+
+            margin: 0 0 25px;
+
+            color: var(--gnx-text);
+
+            font-size: 16px;
+
+            line-height: 1.85;
+
+        }
+
+
+        .about-test__final {
+
+            margin-top: 35px;
+
+            color: var(--gnx-navy) !important;
+
+            font-size: 18px !important;
+
+            font-weight: 700;
+
+        }
+
+
+        /* =========================================================
+           RESPONSIVE
+        ========================================================= */
+
+        @media (max-width: 900px) {
+
+            .about-test {
+
+                padding: 70px 25px 80px;
+
+            }
+
+
+            .about-test__heading {
+
+                font-size: 38px;
+
+                margin-bottom: 60px;
+
+            }
+
+
+            .about-test__intro {
+
+                grid-template-columns: 1fr;
+
+                gap: 55px;
+
+            }
+
+
+            .about-test__founder {
+
+                position: relative;
+
+                top: auto;
+
+                order: -1;
+
+            }
+
+
+            .about-test__founder-photo-wrap {
+
+                max-width: 320px;
+
+                margin: 0 auto;
+
+            }
+
+
+            .about-test__secondary,
+            .about-test__philosophy {
+
+                grid-template-columns: 1fr;
+
+                gap: 30px;
+
+                margin-top: 70px;
+
+                padding-top: 55px;
+
+            }
+
+        }
+
+
+        @media (max-width: 600px) {
+
+            .about-test {
+
+                padding: 55px 18px 70px;
+
+            }
+
+
+            .about-test__heading {
+
+                font-size: 31px;
+
+                line-height: 1.2;
+
+                margin-bottom: 45px;
+
+            }
+
+
+            .about-test__story h2 {
+
+                font-size: 22px;
+
+            }
+
+
+            .about-test__story p {
+
+                font-size: 15px;
+
+                line-height: 1.8;
+
+            }
+
+
+            .about-test__opening p {
+
+                font-size: 18px;
+
+            }
+
+
+            .about-test__mine {
+
+                padding: 22px;
+
+            }
+
+
+            .about-test__mine p {
+
+                font-size: 15px;
+
+            }
+
+
+            .about-test__guide {
+
+                padding: 25px;
+
+            }
+
+
+            .about-test__guide p {
+
+                font-size: 15px;
+
+            }
+
+
+            .about-test__secondary h3,
+            .about-test__philosophy h3 {
+
+                font-size: 26px;
+
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+<section class="about-test">
+
+    <div class="about-test__container">
+
+
+        <!-- =====================================================
+             EYEBROW
+        ====================================================== -->
+
+        <div class="about-test__eyebrow">
+
+            <span class="about-test__eyebrow-dot"></span>
+
+            OUR STORY
+
+        </div>
+
+
+        <!-- =====================================================
+             MAIN HEADING
+        ====================================================== -->
+
+        <h1 class="about-test__heading">
+
+            A New Identity.<br>
+            Built on Two Decades of Experience.
+
+        </h1>
+
+
+        <!-- =====================================================
+             MAIN ASYMMETRICAL AREA
+        ====================================================== -->
+
+        <div class="about-test__intro">
+
+
+            <!-- =================================================
+                 STORY
+            ================================================== -->
+
+            <article class="about-test__story">
+
+
+                <h2>
+                    Recruitment Beyond Resumes
+                </h2>
+
+
+                <div class="about-test__opening">
+
+                    <p>
+                        For more than two decades, I have worked with people,
+                        organizations, leaders and talent; building, learning
+                        and growing through experiences that shaped not just
+                        how I work, but what I believe good HR and recruitment
+                        should look like.
+                    </p>
+
+                </div>
+
+
+                <p>
+                    For many years, I was building that work under an identity
+                    that was not my own.
+                </p>
+
+
+                <div class="about-test__mine">
+
+                    <p>The work was mine.</p>
+
+                    <p>The experience was mine.</p>
+
+                    <p>The relationships I built were mine.</p>
+
+                    <p>
+                        The lessons — both the successes and the difficult
+                        ones — were mine.
+                    </p>
+
+                </div>
+
+
+                <p>
+                    But the identity belonged elsewhere.
+                </p>
+
+
+                <p>
+                    And somewhere along the way, I realized something important:
+                </p>
+
+
+                <p class="about-test__emphasis">
+
+                    I didn't want to simply continue doing the work.
+                    I wanted to build something that carried my own values,
+                    my own perspective and my own way of working.
+
+                </p>
+
+
+                <p>
+                    That realization became the beginning of something I had
+                    wanted for a long time. The freedom to build something of
+                    my own.
+                </p>
+
+
+                <p>
+                    That something became GuideNX.
+                </p>
+
+
+                <div class="about-test__guide">
+
+                    <p>
+                        GuideNX is not a reinvention of what I know.
+                        It is everything I have learned, experienced and built
+                        over the years. Now brought together under my own
+                        identity, values and vision.
+                    </p>
+
+                    <br>
+
+                    <p>
+                        What changes is the name. What changes is the freedom
+                        to build it my way.
+                    </p>
+
+                </div>
+
+
+                <p style="margin-top:35px;">
+
+                    And that is why GuideNX is more than a new business for me.
+                    It is a <strong>new chapter of work that has been years
+                    in the making.</strong>
+
+                </p>
+
+
+            </article>
+
+
+            <!-- =================================================
+                 FOUNDER
+            ================================================== -->
+
+            <aside class="about-test__founder">
+
+
+                <div class="about-test__founder-photo-wrap">
+
+                    <img
+                        src="sweety-vasani.jpg"
+                        alt="Sweety Vasani"
+                        class="about-test__founder-photo"
+                    >
+
+                </div>
+
+
+                <div class="about-test__founder-info">
+
+                    <h3 class="about-test__founder-name">
+                        Sweety Vasani
+                    </h3>
+
+
+                    <p class="about-test__founder-title">
+                        Founder | GuideNX Search
+                    </p>
+
+
+                    <div class="about-test__founder-line"></div>
+
+
+                    <p class="about-test__founder-quote">
+
+                        “GuideNX is more than a new business for me.
+                        It is the opportunity to finally give my experience,
+                        my values and my way of working an identity of their own.”
+
+                    </p>
+
+                </div>
+
+
+            </aside>
+
+
+        </div>
+
+
+        <!-- =====================================================
+             NEW BRAND / NOT NEW TO WORK
+        ====================================================== -->
+
+        <section class="about-test__secondary">
+
+
+            <div>
+
+                <div class="about-test__secondary-label">
+                    The Experience Behind the Name
+                </div>
+
+                <h3>
+                    New Brand.<br>
+                    Not New to the Work.
+                </h3>
+
+            </div>
+
+
+            <div class="about-test__secondary-content">
+
+
+                <p>
+                    GuideNX Search may be a new name in the market,
+                    but the work behind it isn't new.
+                </p>
+
+
+                <p>
+                    The experience, judgement and understanding that shape
+                    every search have been built over more than two decades
+                    of working across HR, recruitment, leadership and talent.
+                </p>
+
+
+                <p class="about-test__secondary-highlight">
+
+                    I am not starting from zero.
+                    I am starting from experience.
+
+                </p>
+
+
+            </div>
+
+
+        </section>
+
+
+        <!-- =====================================================
+             LOOKING BEYOND THE RESUME
+        ====================================================== -->
+
+        <section class="about-test__philosophy">
+
+
+            <div>
+
+                <div class="about-test__philosophy-label">
+                    Our Approach
+                </div>
+
+                <h3>
+                    Looking Beyond<br>
+                    the Resume
+                </h3>
+
+            </div>
+
+
+            <div class="about-test__philosophy-content">
+
+
+                <p>
+                    My approach to recruitment has always been shaped by a
+                    belief that people cannot be understood through a resume
+                    alone.
+                </p>
+
+
+                <p>
+                    My experience in <strong>Strategic Human Resources</strong>,
+                    together with my background in counselling and psychometric
+                    assessment, has taught me to look beyond qualifications
+                    and years of experience towards capability, behavioural
+                    fit, motivation and the environment in which someone can
+                    truly thrive.
+                </p>
+
+
+                <p>
+                    That perspective now sits at the heart of GuideNX Search.
+                </p>
+
+
+                <p>
+                    We work across the recruitment spectrum from blue-collar
+                    and volume hiring to specialist, niche and leadership
+                    roles.
+                </p>
+
+
+                <p class="about-test__final">
+
+                    Because regardless of the level of the role, the principle
+                    remains the same: find the person who is right for the role,
+                    right for the organization, and right for what comes next.
+
+                </p>
+
+
+            </div>
+
+
+        </section>
+
+
+    </div>
+
+</section>
+
+
+</body>
+
+</html>
