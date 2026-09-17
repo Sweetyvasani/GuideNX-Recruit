@@ -2830,27 +2830,38 @@ linear-gradient(
 
 
 /* =========================================================
-   GuideNX Recruit — Desktop Hero Position Fix
+   GuideNX Recruit — Desktop Hero Final Position
    ========================================================= */
 
 @media (min-width: 769px) {
 
-  .recruit-hero .hero-content {
-    width: calc(100% - 240px);
-    max-width: 1635px;
+  .recruit-hero {
+    justify-content: flex-start;
+    align-items: center;
+  }
 
-    margin-left: auto;
-    margin-right: auto;
+  .recruit-hero .hero-content {
+    width: 1200px;
+    max-width: 1200px;
+
+    margin-left: 120px;
+    margin-right: 0;
 
     align-items: flex-start;
     text-align: left;
   }
 
   .recruit-hero h1 {
+    font-size: 68px;
+    line-height: 1.05;
+    max-width: 1100px;
+
     text-align: left;
+    margin-bottom: 20px;
   }
 
   .recruit-hero .hero-subtext {
+    max-width: 850px;
     text-align: left;
   }
 
