@@ -387,12 +387,12 @@ margin-bottom: 0;
 }
 
 .recruit-hero h1 {
-  font-size: 56px;
+  font-size: 50px;
   font-weight: 600;
   line-height: 1.08;
   margin-bottom: 20px;
   letter-spacing: -1px;
-  max-width: 1050px;
+  max-width: 1000px;
   text-align: left;
   color: #F8F9FB;
 }
