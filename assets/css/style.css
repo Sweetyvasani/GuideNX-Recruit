@@ -2693,10 +2693,10 @@ linear-gradient(
 .recruit-hero .hero-brand-mark {
   position: absolute;
 
-  width: 620px;
-  height: 620px;
+  width: 590px;
+  height: 590px;
 
-  right: 6%;
+  right: 4%;
   top: 53%;
 
   transform: translateY(-50%);
