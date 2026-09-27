@@ -2831,3 +2831,282 @@ linear-gradient(
 }
 
 
+/* =========================================================
+   GuideNX Recruit — FINAL DESKTOP HERO
+   Temporary clean override
+   Desktop only — Mobile remains untouched
+========================================================= */
+
+@media (min-width: 769px) {
+
+  /* -------------------------------------------------------
+     HERO CONTAINER
+  ------------------------------------------------------- */
+
+  .recruit-hero {
+    min-height: 590px;
+    height: 590px;
+
+    padding-top: 0;
+    padding-bottom: 0;
+
+    position: relative;
+    overflow: hidden;
+  }
+
+
+  /* -------------------------------------------------------
+     HERO CONTENT
+  ------------------------------------------------------- */
+
+  .recruit-hero .hero-content {
+
+    position: relative;
+    z-index: 2;
+
+    width: 100%;
+    max-width: 1200px;
+
+    margin-left: 103px;
+    margin-right: 0;
+
+    padding: 0;
+
+    align-items: flex-start;
+    text-align: left;
+
+    top: 0;
+    left: 0;
+  }
+
+
+  /* -------------------------------------------------------
+     EYEBROW
+  ------------------------------------------------------- */
+
+  .recruit-hero .hero-eyebrow {
+
+    display: inline-flex;
+    align-items: center;
+
+    margin: 70px 0 42px;
+
+    padding: 12px 18px;
+
+    font-size: 15px;
+    line-height: 1.4;
+
+    border-radius: 999px;
+
+    width: auto;
+    max-width: none;
+
+    justify-content: flex-start;
+  }
+
+
+  /* -------------------------------------------------------
+     MAIN HEADLINE
+  ------------------------------------------------------- */
+
+  .recruit-hero h1 {
+
+    margin: 0 0 26px;
+
+    max-width: 900px;
+
+    font-size: 48px;
+    line-height: 1.08;
+
+    font-weight: 650;
+
+    letter-spacing: -1.5px;
+
+    text-align: left;
+  }
+
+
+  .recruit-hero .hero-line {
+    display: block;
+  }
+
+
+  /* -------------------------------------------------------
+     GOLD HEADLINE ACCENT
+  ------------------------------------------------------- */
+
+  .recruit-hero .hero-accent {
+
+    font-weight: 750;
+
+    background: linear-gradient(
+      135deg,
+      #B98212 0%,
+      #D4A017 35%,
+      #E7C45A 50%,
+      #D4A017 65%,
+      #B98212 100%
+    );
+
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+
+  /* -------------------------------------------------------
+     SERVICE TAGLINE
+  ------------------------------------------------------- */
+
+  .recruit-hero .hero-tagline {
+
+    margin: 0 0 28px;
+
+    max-width: 850px;
+
+    font-size: 20px;
+    line-height: 1.4;
+
+    font-weight: 600;
+
+    color: #D4A017;
+
+    text-align: left;
+  }
+
+
+  /* -------------------------------------------------------
+     SUPPORTING TEXT
+  ------------------------------------------------------- */
+
+  .recruit-hero .hero-subtext {
+
+    margin: 0;
+
+    max-width: 760px;
+
+    font-size: 16px;
+    line-height: 1.7;
+
+    color: rgba(255, 255, 255, 0.78);
+
+    text-align: left;
+  }
+
+
+  /* -------------------------------------------------------
+     CTA
+  ------------------------------------------------------- */
+
+  .recruit-hero .hero-buttons {
+
+    display: flex;
+
+    justify-content: flex-start;
+
+    margin-top: 28px;
+
+    width: auto;
+  }
+
+
+  .recruit-hero .btn-primary {
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 16px 28px;
+
+    min-width: 235px;
+
+    border-radius: 8px;
+
+    font-size: 15px;
+    font-weight: 600;
+
+    color: #071D38;
+
+    background: linear-gradient(
+      135deg,
+      #B98212 0%,
+      #D4A017 45%,
+      #E5C35A 100%
+    );
+
+    border: 1px solid rgba(255,255,255,0.16);
+
+    box-shadow:
+      0 10px 24px rgba(212,160,23,0.20),
+      inset 0 1px 1px rgba(255,255,255,0.25);
+  }
+
+
+  /* -------------------------------------------------------
+     GUIDENX WATERMARK
+  ------------------------------------------------------- */
+
+  .recruit-hero .hero-brand-mark {
+
+    position: absolute;
+
+    width: 590px;
+    height: 590px;
+
+    right: 1%;
+    top: 50%;
+
+    transform: translateY(-50%);
+
+    margin: 0;
+
+    padding: 0;
+
+    background: transparent;
+
+    pointer-events: none;
+
+    z-index: 1;
+  }
+
+
+  .recruit-hero .hero-brand-mark img {
+
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: contain;
+
+    opacity: 0.11;
+  }
+
+
+  /* -------------------------------------------------------
+     HERO DIVIDER
+  ------------------------------------------------------- */
+
+  .recruit-hero .hero-divider {
+
+    position: absolute;
+
+    left: 0;
+    bottom: 0;
+
+    width: 100%;
+    height: 3px;
+
+    background: linear-gradient(
+      90deg,
+      #3EA5CF 0%,
+      #3EA5CF 35%,
+      #D4A017 65%,
+      #D4A017 100%
+    );
+
+    z-index: 4;
+  }
+
+}
+
