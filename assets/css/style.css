@@ -2494,40 +2494,6 @@ linear-gradient(
 }
 
 
-/* =========================================================
-   GuideNX Hero Watermark
-========================================================= */
-
-.recruit-hero .hero-brand-mark {
-  position: absolute;
-
-  width: 590px;
-  height: 590px;
-
-  right: -5%;
-  top: 53%;
-
-  transform: translateY(-50%);
-
-
-  background: transparent;
-
-  pointer-events: none;
-
-  z-index: 1;
-}
-
-
-.recruit-hero .hero-brand-mark img {
-  width: 100%;
-  height: 100%;
-
-  object-fit: contain;
-  display: block;
-
-  opacity: 0.11;
-}
-
 
 
 
