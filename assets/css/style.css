@@ -284,12 +284,16 @@ header .brand-name {
   width: 100%;
   
     z-index: 2;
+  
+    margin-left: 120px;
+  margin-right: auto;
 margin-bottom: 0;
-  text-align: center;
+  
+  text-align: left;
 
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   
   opacity: 0;
   transform: translateY(25px);
@@ -431,7 +435,7 @@ margin-bottom: 0;
   opacity: 0.9;
   margin-bottom: 0px;
   max-width: 800px;
-    text-align: center;
+    text-align: left;
   color: rgba(255,255,255,0.82);
 }
 
@@ -447,13 +451,13 @@ margin-bottom: 0;
   color: #f59e0b;
   margin: 12px 0 18px;
   line-height: 1.1;
-  text-align: center;
+  text-align: left;
 }
 
 /* Buttons */
 .recruit-hero .hero-buttons {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
    margin-top: 32px;
 }
 
@@ -2455,38 +2459,8 @@ linear-gradient(
   opacity: 0.11;
 }
 
-/* Move hero content toward the left */
-.recruit-hero .hero-content {
-  align-items: flex-start;
-  text-align: left;
 
-  max-width: 1200px;
-}
 
-/* Left-align headline */
-.recruit-hero h1 {
-  text-align: left;
-}
-
-/* Left-align supporting content */
-.recruit-hero .hero-subtext {
-  text-align: left;
-}
-
-/* Left-align tagline */
-.recruit-hero .hero-tagline {
-  text-align: left;
-}
-
-/* Keep CTA on the left */
-.recruit-hero .hero-buttons {
-  justify-content: flex-start;
-}
-
-/* Keep the logo behind the content */
-.recruit-hero .hero-content {
-  z-index: 2;
-}
 
 /* =========================================================
    Mobile
@@ -2560,17 +2534,6 @@ linear-gradient(
 /* =========================================================
    GuideNX Hero — Left Content Position
 ========================================================= */
-
-.recruit-hero .hero-content {
-  width: 100%;
-  max-width: 1200px;
-
-  margin-left: 120px;
-  margin-right: auto;
-
-  align-items: flex-start;
-  text-align: left;
-}
 
 
 @media (max-width: 768px) {
