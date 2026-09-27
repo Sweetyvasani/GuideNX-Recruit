@@ -51,20 +51,110 @@ header .brand {
   flex-shrink: 0;   /* ✅ logo never shrinks */
 }
 
-header img {
-  height: 64px;   /* mobile / default */
+/* GuideNX Logo */
+
+header .logo-img {
+  height: 54px;
   width: auto;
+
+  display: block;
 }
 
-.brand-bold {
-    color: #3ea5cf;      
-    font-weight: 700;
+/* GuideNX + Tagline Lockup */
+
+header .brand-lockup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  margin-left: 10px;
+
+  line-height: 1;
+  white-space: nowrap;
 }
 
-.brand-accent {
-    color: #D4A73F;      /* Same orange as footer */ 
-    font-weight: 700;
+/* GuideNX Wordmark */
+
+header .brand-main {
+  display: flex;
+  align-items: baseline;
+
+  line-height: 1;
 }
+
+
+header .brand-guide {
+  color: #3EA5CF;
+
+  font-size: 24px;
+  font-weight: 700;
+
+  letter-spacing: -0.5px;
+}
+
+
+header .brand-nx {
+  color: #D4A017;
+
+  font-size: 24px;
+  font-weight: 700;
+
+  letter-spacing: -0.5px;
+}
+
+/* Brand Tagline */
+
+header .brand-tagline {
+  margin-top: 4px;
+
+  color: #0B1F3A;
+
+  font-family: 'Montserrat', sans-serif;
+
+  font-size: 9px;
+  font-weight: 700;
+
+  letter-spacing: 0.8px;
+
+  line-height: 1;
+
+  white-space: nowrap;
+}
+
+/* Divider between GuideNX branding and Recruit */
+
+header .brand-divider {
+  width: 1px;
+  height: 38px;
+
+  margin-left: 18px;
+  margin-right: 18px;
+
+  background: #C7D0D8;
+
+  flex-shrink: 0;
+}
+
+
+/* Recruit Vertical Identifier */
+
+header .brand-vertical {
+  color: #6B7A89;
+
+  font-family: 'Montserrat', sans-serif;
+
+  font-size: 20px;
+  font-weight: 600;
+
+  letter-spacing: -0.2px;
+
+  line-height: 1;
+
+  white-space: nowrap;
+}
+
+
+
 
 @media (min-width: 1024px) {
   header img {
@@ -186,7 +276,7 @@ body {
   .menu-toggle { display: block; }
   header nav { display: none !important; }
 
-  header img {
+  header .logo-img {
       display: block;
       height: 42px;
       width: auto;
@@ -202,12 +292,39 @@ body {
     justify-content: space-between;
     padding: 12px 18px;
 }
+
+  header .brand-lockup {
+    margin-left: 5px;
+  }
+
+  header .brand-guide,
+  header .brand-nx {
+    font-size: 21px;
+  }
   
 header .brand {
   flex-shrink: 1;   /* allow brand to shrink */
   min-width: 0;     /* prevent overflow in flex */
   width: auto;
 }
+
+  header .brand-tagline {
+    margin-top: 3px;
+
+    font-size: 7px;
+    letter-spacing: 0.6px;
+  }
+
+  header .brand-divider {
+    height: 30px;
+
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  header .brand-vertical {
+    font-size: 17px;
+  }
 
 
 header .brand-name {
