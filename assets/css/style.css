@@ -86,7 +86,7 @@ header .brand-main {
 header .brand-guide {
   color: #3EA5CF;
 
-  font-size: 26px;
+  font-size: 28px;
   font-weight: 700;
 
   letter-spacing: -0.5px;
@@ -96,7 +96,7 @@ header .brand-guide {
 header .brand-nx {
   color: #D4A017;
 
-  font-size: 26px;
+  font-size: 28px;
   font-weight: 700;
 
   letter-spacing: -0.5px;
@@ -105,14 +105,14 @@ header .brand-nx {
 /* Brand Tagline */
 
 header .brand-tagline {
-  margin-top: 4px;
+  margin-top: 5px;
 
   color: #0B1F3A;
 
   font-family: 'Montserrat', sans-serif;
 
   font-size: 9px;
-  font-weight: 700;
+  font-weight: 600;
 
   letter-spacing: 0.8px;
 
