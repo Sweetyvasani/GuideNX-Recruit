@@ -2852,6 +2852,10 @@ linear-gradient(
 
     position: relative;
     overflow: hidden;
+
+     /* Override old flex positioning */
+    justify-content: flex-start;
+    align-items: flex-start;
   }
 
 
