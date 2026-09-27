@@ -542,6 +542,89 @@ margin-bottom: 0;
   left: 100%;
 }
 
+/* =========================================================
+   HERO BRAND TAGLINE
+   ========================================================= */
+
+.guidenx-brand-tagline {
+  position: absolute;
+
+  left: 50%;
+
+  bottom: 34px;
+
+  transform: translateX(-50%);
+
+  z-index: 4;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 22px;
+
+  width: max-content;
+
+  margin: 0;
+
+  font-family: 'Montserrat', sans-serif;
+
+  white-space: nowrap;
+}
+
+
+/* Tagline Words */
+
+.tagline-words {
+  display: flex;
+
+  align-items: center;
+
+  gap: 13px;
+
+  font-size: 1.15rem;
+
+  font-weight: 600;
+
+  letter-spacing: 2px;
+
+  line-height: 1;
+}
+
+.tagline-guide {
+  color: #3EA5CF;
+}
+
+.tagline-grow {
+  color: #FFFFFF;
+}
+
+.tagline-excel {
+  color: #D4A017;
+}
+
+
+/* Tagline Lines */
+
+.tagline-line {
+  display: block;
+
+  width: 58px;
+  height: 2px;
+
+  flex-shrink: 0;
+
+  background:
+    linear-gradient(
+      90deg,
+      #3EA5CF,
+      #D4A017
+    );
+}
+
+
 
 /* Gradient divider */
 .recruit-hero .hero-divider {
