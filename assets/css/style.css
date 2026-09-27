@@ -79,6 +79,7 @@ header .brand-main {
   display: flex;
   align-items: baseline;
 
+    font-family: 'Montserrat', sans-serif;
   line-height: 1;
 }
 
