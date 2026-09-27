@@ -2844,8 +2844,8 @@ linear-gradient(
   ------------------------------------------------------- */
 
   .recruit-hero {
-    min-height: 590px;
-    height: 590px;
+    min-height: 630px;
+    height: 630px;
 
     padding-top: 0;
     padding-bottom: 0;
@@ -2897,7 +2897,7 @@ linear-gradient(
 
     padding: 12px 18px;
 
-    font-size: 15px;
+    font-size: 17px;
     line-height: 1.4;
 
     border-radius: 999px;
@@ -3059,8 +3059,8 @@ linear-gradient(
 
     transform: translateY(-50%);
 
-    width: 620px;
-    height: 620px;
+    width: 590px;
+    height: 590px;
 
     background: transparent;
 
