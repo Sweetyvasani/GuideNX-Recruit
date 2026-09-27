@@ -86,8 +86,8 @@ header .brand-main {
 header .brand-guide {
   color: #3EA5CF;
 
-  font-size: 28px;
-  font-weight: 700;
+  font-size: 30px;
+  font-weight: 800;
 
   letter-spacing: -0.5px;
 }
@@ -96,8 +96,8 @@ header .brand-guide {
 header .brand-nx {
   color: #D4A017;
 
-  font-size: 28px;
-  font-weight: 700;
+  font-size: 30px;
+  font-weight: 800;
 
   letter-spacing: -0.5px;
 }
@@ -124,7 +124,7 @@ header .brand-tagline {
 /* Divider between GuideNX branding and Recruit */
 
 header .brand-divider {
-  width: 1.5px;
+  width: 2px;
   height: 38px;
 
   margin-left: 18px;
